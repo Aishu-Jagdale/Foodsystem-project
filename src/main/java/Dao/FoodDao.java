@@ -1,0 +1,14 @@
+package Dao;
+
+import java.util.List;
+
+import pojo.Food;
+
+public interface FoodDao {
+	boolean addFood(Food food);
+	boolean updateFoodById(Food food);
+	boolean deleteFoodById(int foodId);
+	List<Food>getAllFood();
+	Food searchFoodById(int foodId);
+	
+}
