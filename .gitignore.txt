@@ -1,5 +1,7 @@
-  .setting/
-build/
-.classpath 
-.project 
 .metadata/
+Servers/
+bin/
+target/
+.classpath
+.project
+.settings/

@@ -10,7 +10,7 @@ public class DataConnect {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ct143", "root", "saniya@123");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "aishwarya");
 		}
 		catch(Exception e)
 		{
